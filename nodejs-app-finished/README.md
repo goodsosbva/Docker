@@ -51,3 +51,7 @@ CMD ["node", "server.js"]
 의존성 설치는 package.json 파일의 변경 여부에만 영향을 받습니다. 소스 코드가 변경되더라도 npm install을 반복하지 않기 때문에 빌드 시간이 단축됩니다.
 소스 코드를 복사하는 단계는 마지막에 수행되어야 의존성 설치 캐시가 최대한 활용됩니다.
 이 구조 덕분에 소스 코드가 빈번하게 변경되더라도 의존성 설치는 캐시를 재사용하며, 변경된 부분에만 집중하여 빌드를 처리할 수 있습니다.
+
+
+### 첫번째 도커 허브 공유한 앱
+https://hub.docker.com/repository/docker/khs7019/khs-first-docker-app/general
