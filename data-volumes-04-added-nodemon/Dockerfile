@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 80
 
-CMD ["npm", "start"]
+# VOLUME [ "/app/node_modules" ]
+
+CMD [ "npm", "start" ]
